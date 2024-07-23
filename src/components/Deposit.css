@@ -1,0 +1,63 @@
+.deposit-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+  }
+  
+  .address-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+  }
+  
+  .copy-icon {
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  
+  .wallet-address,
+  .wallet-address-eth {
+    margin-bottom: 20px;
+  }
+
+  .eth-address{
+    font-size: 14px;
+    position: relative;
+    margin-left: -10px;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  .submit-button {
+    background-color: rgb(35, 40, 115);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: white;
+    color:  rgb(35, 40, 115);
+    border: 1px solid  rgb(35, 40, 115);;
+  }
+  
+  .line-breaker {
+    margin: 20px 0;
+    border-top: 1px solid #dee2e6;
+  }
+  

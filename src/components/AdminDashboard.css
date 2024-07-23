@@ -1,0 +1,109 @@
+ .admin-container{
+
+    position: absolute;
+    margin:  -20% 0 0 -37%;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: rgb(189, 67, 67);
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+    z-index: 888;
+    
+ }
+ .admin-header{
+    margin-left: 30%;
+    margin-bottom: 5%;
+ }
+
+ .features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 100px;
+    padding-left: 50px;
+    
+
+     
+ }
+
+ .active-users{
+    background-color: red;
+    color: white;
+    width: 60%;
+    height: 120%;
+    cursor: pointer;
+    margin-left: 10%;
+ }
+
+ .total-users{
+    background-color: rgb(255, 251, 0);
+    color: white;
+    width: 60%;
+    height: 120%;
+    cursor: pointer;
+    margin-left: -20%;
+    
+ }
+
+ .total-deposited{
+    background-color: rgb(15, 213, 11);
+    color: white;
+    width: 60%;
+    height: 100%;
+    margin-left: 10%;
+    cursor: pointer;
+ }
+ .total-withdrawal{
+    background-color: rgb(3, 69, 168);
+    color: white;
+    width: 60%;
+    height: 100%;
+    margin-left: -20%;
+    cursor: pointer;
+ }
+ 
+ .item-active{
+    padding-left: 150px;
+ }
+
+ .item-total{
+    padding-left: 150px;
+ }
+
+ .item-deposited{
+    padding-left: 150px;
+ }
+
+ .item-withdrawal{
+    padding-left: 150px;
+ }
+
+ .stat-total{
+     font-size: 50px;
+     padding-left: 100px;
+ }
+
+ .stat-active{
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+.stat-deposited{
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+.stat-withdrawal{
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+
+.update-btn{
+    color: rgb(79, 209, 166);
+}
+ 
+ 
+ 
+

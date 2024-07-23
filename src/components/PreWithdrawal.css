@@ -1,0 +1,38 @@
+.header{
+    position: absolute;
+    top: 0;
+}
+
+.check-out{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.credit-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.bank{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.credit-btn{
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.credit-btn:hover{
+    background-color: rgba(19, 19, 132, 0.774);
+    color: white;
+    transition: 0.8ms linear;
+    border: 1px solid white;
+}

@@ -1,0 +1,14 @@
+.close-btn{
+    background-color:rgb(35, 40, 115) ;
+    color: white;
+}
+
+.close-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.closeButton{
+    background-color: rgb(35, 40, 115);
+    color: white;
+}

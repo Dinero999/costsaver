@@ -1,0 +1,30 @@
+ .msg-area{
+    position: relative; 
+    color: rgb(255, 255, 255);
+ }
+
+ .btn{
+    position: relative;
+ }
+
+.btn-tg{
+    display: flex;
+    width: 100%;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.btn-tg:hover{
+    color: white;
+    background-color: rgba(18, 18, 154, 0.736);
+    transition: linear 15ms;
+    border: 1px solid white;
+}
+
+@media (min-width:786px) {
+    .btn-tg{
+        width: 210%; 
+        margin-left: -30px;  
+    }
+}

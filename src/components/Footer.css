@@ -1,0 +1,23 @@
+.footer {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8),rgb(35, 40, 115));
+    color: white;
+    position: absolute;
+    bottom: -710%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+    left: 0;
+   
+  }
+  
+ 
+  @media (max-width:768px) {
+    .footer{
+        position: absolute;
+        bottom: -450%;
+        
+        
+    }
+    
+  }
+  

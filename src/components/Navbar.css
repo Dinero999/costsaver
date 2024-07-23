@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar-nav{
+    margin-right: 0;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ddd;
+    text-decoration: underline;
+  }
+  
+  .btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .btn-outline-light:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  @media (max-width: 960px) {
+    .navbar-nav .nav-item {
+      margin:  0;
+      width: 500px;
+    }
+  }
+
+ 
+  

@@ -1,0 +1,196 @@
+  /* General styles */
+  body {
+    font-family: Arial, sans-serif;
+ 
+  }
+ 
+  
+  
+  /* Hamburger menu styles */
+  .hamburger-booking{
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    top: -2200%;
+    left: -30px;
+    z-index: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+   
+  }
+  
+  /* Sidebar styles */
+  .container{
+   
+    color: white;
+
+     
+     
+  }
+  .sidebar {
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    background-color: #041022;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.3s;
+    left: -100%;
+    padding-top: 60px;
+ 
+  
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-top: 1px;
+    border: 1px 0 1px 0 solid rgb(255, 255, 255) ;
+  }
+  
+  .sidebar a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid white;
+  }
+  
+  /* Sidebar open state */
+  .sidebar.open {
+    left: 0;
+  }
+  
+  .hamburger.open{
+    display: none;
+  }
+
+  .balance-info-usdt{
+    display: flex;
+   flex-direction: row;
+   gap: 15px;
+   padding-left: 5px;
+  }
+  .balance-info{
+   font-size: 11px; 
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   padding-left: 10px;
+  }
+
+  .tax-info{
+    margin-left: 20px;
+  }
+
+  .side-footer{
+    border-top: 1px solid rgb(197, 191, 191);
+    position: relative;
+    bottom: -10%;
+    font-size: 9px;
+    padding-left: 10%;
+  }
+
+   
+  .right-angle-logout{
+    margin-left: 150px;
+    color: aqua;
+  }
+
+  .right-angle-logout:hover{
+    margin-left: 150px;
+    color: rgb(255, 255, 255);
+  }
+
+
+  .right-angle-password{
+    margin-left: 140px;
+    color: aqua;
+  }
+
+  .right-angle-password:hover{
+    margin-left: 140px;
+    color: rgb(255, 255, 255);
+  }
+  .right-angle-customer{
+    margin-left: 70px;
+    color: aqua;
+  }
+  .right-angle-customer:hover{
+    
+    color: rgb(255, 255, 255);
+  }
+  .right-angle-withdrawal{
+    margin-left: 120px;
+    color: aqua;
+  }
+
+  .right-angle-withdrawal:hover{
+    
+    color: rgb(255, 255, 255);
+  }
+
+  .right-angle-deposit{
+    margin-left: 145px;
+    color: aqua;
+  }
+  .right-angle-deposit:hover{
+    
+    color: rgb(255, 255, 255);
+  }
+
+  .right-angle-recharge{
+    margin-left: 130px;
+    color: aqua
+  }
+
+  .right-angle-recharge:hover{
+    
+    color: rgb(255, 255, 255);
+  }
+
+  
+  .right-angle-booking{
+    margin-left: 140px;
+    color: aqua;
+  }
+
+  .right-angle-booking:hover{
+    
+    color: rgb(255, 255, 255);
+  }
+
+.profile-pic-booking{
+    margin-left: 20%;
+    width: 100px;
+    height: 100px;  
+}
+
+.profile-pic-input{
+    display: block;
+    position: absolute;
+    top: 17%;
+    left: 54%;
+    font-size: 10px;
+    margin: 10px auto; 
+
+}
+  
+.profile-name-booking{
+    margin-left: 15%;
+}
+
+.invitation-code-booking{
+    margin-left: 10%; 
+}
+  @media (min-width:800px) {
+    .hamburger-booking{
+        left: -90%;
+        color: rgb(255, 255, 255);
+    }
+    
+  }
+
+  

@@ -1,0 +1,47 @@
+/* optimisation.css */
+
+.optimisation-container {
+    padding: 20px;
+  }
+  
+  .record-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .record-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .record-image {
+    width: 300px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-button:disabled {
+    background-color: #ccc;
+  }
+  
+  .stats-container {
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
